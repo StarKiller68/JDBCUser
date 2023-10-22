@@ -18,7 +18,8 @@ tmp/**/*
 *~.nib
 local.properties
 *.classpath
-*.settings/
+.settings/
+*.settings
 .loadpath
 
 # External tool builders
