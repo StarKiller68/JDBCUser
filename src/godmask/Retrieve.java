@@ -15,7 +15,7 @@ public class Retrieve {
 			ResultSet rs = null;
 			String query = "SELECT * FROM users";
 			
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/userdb?user=root&password=sicilian");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/userdb?user=root&password=");
 		
 			
 			Statement stmt = con.createStatement();
